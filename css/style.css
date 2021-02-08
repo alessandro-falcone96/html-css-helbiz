@@ -3,22 +3,28 @@ body{
 }
 
 [class*="col-"] {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   /* height: 300px; */
+}
+
+/* General */
+.container-grigio{
+  background-color: #FAFAFA;
 }
 
 /* Header */
 header{
   position: fixed;
   width: 100%;
+  z-index: 1;
+  background-color: white;
 }
 header .logo img{
   height: 15px;
 }
 header .row{
   line-height: 50px;
-  background-color: lightyellow;
-  margin-top: 30px;
+  /* background-color: lightyellow; */
 }
 header nav ul li a{
   text-transform: uppercase;
@@ -64,6 +70,35 @@ header .secondary-nav .menu{
   width: 100%;
 }
 
+.seconda-sezione h3{
+  text-transform: uppercase;
+  font-size: 35px;
+  letter-spacing: 5px;
+  padding: 50px 0px 15px 0px;
+}
+.seconda-sezione p{
+  font-size: 20px;
+  padding: 10px 15px 35px 15px;
+}
+.seconda-sezione a{
+  color: #0070C8;
+  font-size: 20px;
+}
+.seconda-sezione i{
+  margin-left: 5px;
+}
+.seconda-sezione .container-grigio{
+  height: 675px;
+  position: relative;
+}
+.seconda-sezione img{
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+}
+
+
 
 
 
@@ -90,6 +125,11 @@ header .secondary-nav .menu{
   .prima-sezione h1{
     font-size: 60px;
   }
+
+  .seconda-sezione img{
+    width: 55%;
+    left: 150px;
+  }
 }
 @media screen and (max-width: 767px) {
   header .primary-nav,
@@ -98,5 +138,10 @@ header .secondary-nav .menu{
   }
   header .secondary-nav .menu{
     display: block;
+  }
+
+  .seconda-sezione img{
+    width: 55%;
+    left: 150px;
   }
 }
