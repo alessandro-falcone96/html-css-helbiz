@@ -70,6 +70,7 @@ header .secondary-nav .menu{
   width: 100%;
 }
 
+/* Seconda Sezione */
 .seconda-sezione h3{
   text-transform: uppercase;
   font-size: 35px;
@@ -98,6 +99,15 @@ header .secondary-nav .menu{
   bottom: 30px;
 }
 
+/* Terza Sezione */
+.terza-sezione{
+  height: 600px;
+  background-color: yellow;
+  background-image: url("../img/banner.jpg");
+  background-size: cover;
+  background-position: 20% center;
+  margin-top: 50px;
+}
 
 
 
