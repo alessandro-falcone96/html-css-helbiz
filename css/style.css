@@ -50,6 +50,23 @@ header .secondary-nav .menu{
 
 /* Main */
 
+/* Prima Sezione */
+.prima-sezione .col-lg-12{
+  margin-top: 100px;
+}
+.prima-sezione h1{
+  font-size: 100px;
+  font-weight: bold;
+  color: black;
+  margin: 75px 0px;
+}
+.prima-sezione img{
+  width: 100%;
+}
+
+
+
+
 /* Footer */
 
 
@@ -68,6 +85,10 @@ header .secondary-nav .menu{
   }
   header .secondary-nav .menu{
     display: block;
+  }
+
+  .prima-sezione h1{
+    font-size: 60px;
   }
 }
 @media screen and (max-width: 767px) {
