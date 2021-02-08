@@ -245,4 +245,13 @@ header .secondary-nav .menu{
  .terza-sezione .terza-colonna{
    margin-top: 0;
  }
+ .quarta-sezione{
+   margin-top: 400px;
+ }
+  .quarta-sezione .prima-colonna{
+    display: none;
+  }
+  .quarta-sezione .monopattino-displaynone{
+    display: block;
+  }
 }
