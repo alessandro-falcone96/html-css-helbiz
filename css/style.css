@@ -1,3 +1,81 @@
 body{
   font-family: 'Open Sans', sans-serif;
 }
+
+[class*="col-"] {
+  border: 1px solid black;
+  /* height: 300px; */
+}
+
+/* Header */
+header{
+  position: fixed;
+  width: 100%;
+}
+header .logo img{
+  height: 15px;
+}
+header .row{
+  line-height: 50px;
+  background-color: lightyellow;
+  margin-top: 30px;
+}
+header nav ul li a{
+  text-transform: uppercase;
+  color: black;
+  font-size: 12px;
+}
+header .primary-nav li a{
+  margin: 0px 15px;
+}
+header .secondary-nav button{
+  margin-left: 15px;
+  border-radius: 0px;
+  background-color: black;
+  color: white;
+  padding: 5px 15px;
+}
+header ul li i{
+  margin-left: 5px;
+}
+header ul li.lingua{
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  line-height: normal;
+}
+header .secondary-nav .menu{
+  display: none;
+}
+
+
+/* Main */
+
+/* Footer */
+
+
+
+/* Media Query */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  header .secondary-nav button{
+    margin-left: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  header .primary-nav,
+  header .secondary-nav .list-inline{
+    display: none;
+  }
+  header .secondary-nav .menu{
+    display: block;
+  }
+}
+@media screen and (max-width: 767px) {
+  header .primary-nav,
+  header .secondary-nav .list-inline{
+    display: none;
+  }
+  header .secondary-nav .menu{
+    display: block;
+  }
+}
