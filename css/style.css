@@ -173,6 +173,43 @@ header .secondary-nav .menu{
 .quarta-sezione .monopattino-displaynone{
   display: none
 }
+
+.quinta-sezione{
+  margin-top: 100px;
+}
+.quinta-sezione h3{
+  font-size: 50px;
+  color: white;
+  width: 85%;
+  margin: auto;
+  font-weight: bolder;
+  padding-top: 50px;
+}
+.quinta-sezione img{
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+}
+.quinta-sezione .container-monopattino,
+.quinta-sezione .container-motorino{
+  width: 95%;
+  margin: auto;
+  min-height: 600px;
+  position: relative;
+}
+.quinta-sezione .container-monopattino{
+  background-color: #48BEE9;
+}
+.quinta-sezione .container-motorino{
+  background-color: #FFD30D;
+}
+
+.quinta-sezione
+
+
+
 /* Footer */
 
 
@@ -254,4 +291,11 @@ header .secondary-nav .menu{
   .quarta-sezione .monopattino-displaynone{
     display: block;
   }
+
+  .quinta-sezione .container-monopattino,
+  .quinta-sezione .container-motorino{
+    min-height: 750px;
+    margin: 30px 0px;
+  }
+
 }
